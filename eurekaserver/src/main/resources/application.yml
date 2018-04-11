@@ -1,0 +1,36 @@
+spring:
+  profiles: peer1
+server:
+  port: 8761
+  enable-self-preservation: false  #关闭自我保护确保可以注销服务
+  eviction-interval-timer-in-ms: 4000 #清理时间,默认60s
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8769/eureka/
+
+
+---
+spring:
+  profiles: peer2
+server:
+  port: 8769
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/
+---
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
