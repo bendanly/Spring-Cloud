@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5199cc4c-f433-4c3e-8fbb-54b2f7343b54" name="Default" comment="" />
+    <list default="true" id="5199cc4c-f433-4c3e-8fbb-54b2f7343b54" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-client/src/main/java/com/study/ConfigClientApplication.java" afterPath="$PROJECT_DIR$/config-client/src/main/java/com/study/ConfigClientApplication.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/eurekaserver/target/" />
     <ignored path="$PROJECT_DIR$/service-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/config-client2/target/" />
@@ -27,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/study/ConfigClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -41,6 +43,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config-client/src/main/java/com/study/ConfigClientApplication.java" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -660,12 +669,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523437851248</updated>
-      <workItem from="1523437854495" duration="1327000" />
+      <workItem from="1523437854495" duration="1744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1327000" />
+    <option name="totallyTimeSpent" value="1744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -718,7 +727,7 @@
     <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/study/ConfigClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding />
         </state>
       </provider>
